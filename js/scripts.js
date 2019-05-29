@@ -52,7 +52,7 @@ function init() {
 
   // PLY file
   var loader = new THREE.PLYLoader();
-  loader.load('./models/ply/ascii/dolphins.ply', function(geometry) {
+  loader.load('./models/ply/ascii/Damian.ply', function(geometry) {
 
     geometry.computeVertexNormals();
 
@@ -64,7 +64,7 @@ function init() {
     mesh.position.y = -0.2;
     mesh.position.z = 0.3;
     mesh.rotation.x = -Math.PI / 2;
-    mesh.scale.multiplyScalar(0.001);
+    mesh.scale.multiplyScalar(0.1);
 
 
 
